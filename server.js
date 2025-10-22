@@ -6,7 +6,7 @@ dotenv.config()
 const app=express()
 app.use(express.json())
 app.use("/api",routes)
-
+// test
 
 app.listen(5000,async () => {
 
