@@ -7,7 +7,8 @@ const app=express()
 app.use(express.json())
 app.use("/api",routes)
 // test
-
+app.get("/",(req,res)=>{
+  res.send("testing the app") })
 app.listen(5000,async () => {
 
    try {
